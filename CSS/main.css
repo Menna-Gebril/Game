@@ -1,0 +1,84 @@
+body {
+  background-color: #32353a;
+  color: #fff;
+  font-family: "Comic Neue", serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #3a497b;
+  color: #fff;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 3px solid #00bcd4;
+}
+
+.navbar {
+  background-color: #3a497b;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #00bcd4;
+}
+
+.nav-bg {
+  background-color: #3a497b;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  background-color: #1f2a48;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.card-body h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  font-size: 14px;
+  color: #b0bec5;
+}
+
+.card-footer {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
